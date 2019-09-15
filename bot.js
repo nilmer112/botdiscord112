@@ -36,7 +36,7 @@ var ownerID2	= "325349909412970496";
 
 //--Bot-Login------------------------
 
-bot.login("NjIyNjgzOTUxMDE4MDE2Nzcx.XX3drg.RQtI6YrFco-mlDVxQv2t0XE3zCQ");
+bot.login("bot_token");
 bot.on('ready',async () => {
 	console.log(`${bot.user.username} is online!`)
 	bot.user.setActivity('Slujindu-l pe CrysADV',{type: "playing"});
